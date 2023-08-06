@@ -132,6 +132,7 @@
     <ClCompile Include="src\Main.c" />
     <ClCompile Include="src\Memory.c" />
     <ClCompile Include="src\Value.c" />
+    <ClCompile Include="src\Vm.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Chunk.h" />
@@ -139,6 +140,7 @@
     <ClInclude Include="src\Debug.h" />
     <ClInclude Include="src\Memory.h" />
     <ClInclude Include="src\Value.h" />
+    <ClInclude Include="src\Vm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
